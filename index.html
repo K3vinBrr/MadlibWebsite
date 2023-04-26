@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The site</title>
+        <script src="site.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+
+    <body>
+        <h1>Mad Libs</h1>
+        <h2>Worst day of school ever.</h2>
+        <br>
+            <form>
+
+                <label for="name1">Name:</label>
+                <input type="text" id="name1"><br>
+
+                <label for="adjective1">Adjective:</label>
+                <input type="text" id="adjective1"><br>
+
+                <label for="adjective2">Adjective:</label>
+                <input type="text" id="adjective2"><br>
+
+                <label for="verb1">Verb:</label>
+                <input type="text" id="verb1"><br>
+
+                 <label for="noun1">Noun:</label>
+                <input type="text" id="noun1"><br>
+
+                <label>Put behind you:</label>
+                <select id="select1">
+                <option value="forget">forget</option>
+                <option value="leave">leave</option>
+                <option value="toss">toss</option>
+                </select> <br>
+
+                <label for="sentence">Activity that you go and do regularly after school.</label><br>
+                <textarea id="sentence" name="MiniSentence" rows="3" cols="40"></textarea> <br>
+
+                <button type="button" onclick="generatethething()">Generate</button>
+               <span class="output"></span>
+    
+            </form>
+
+    <p id="thetext" class="thetext"></p>
+
+    </body>
+</html>
+    
