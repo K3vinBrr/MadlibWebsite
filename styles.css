@@ -1,0 +1,48 @@
+body {
+
+    background-image: linear-gradient(to bottom right, rgba(38, 0, 255, 0.562), rgba(0, 171, 201, 0.432));
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+h1 {
+
+    color: red;
+    font-size: 4vw;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    padding: auto;
+    margin: auto;
+
+
+}
+
+h2 {
+
+    color: rgb(0, 132, 255);
+    font-size: 2vw;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    padding: auto;
+    margin: auto;
+
+
+}
+
+label {
+
+    font-size: 1vw;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: rgb(100, 31, 146);
+
+
+}
+
+.output {
+
+    color: transparent;
+
+}
